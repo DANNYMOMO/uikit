@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Notable&family=Pangolin&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.7.1/css/all.css");
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/button-text.css');
+@import url('components/gradient-button.css');
+@import url('components/banner.css');
+@import url('components/card.css');
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	font-family: 'Pangolin', cursive;
+	font-size: 20px;
+	background-color:lightgray;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Lobster', cursive;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+a {
+	text-decoration: none;
+}

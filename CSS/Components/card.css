@@ -1,0 +1,70 @@
+.card-white {
+	background-color: white;
+	width: 250px;
+	padding: 10px;
+	border: 1px solid gray;
+	box-shadow: 1px 2px 4px gray;
+	border-radius: 10px;
+}
+
+.card-white-image {
+	background: url(https://picsum.photos/250/200);
+	height: 200px;
+	width: 250px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.card-props {
+	font-size: 12px;
+}
+
+.card-description {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card-description ul {
+	list-style: none;
+}
+
+.card-description li {
+	display: inline;
+}
+
+.card-user {
+	color:gray;
+}
+
+.card-white:hover .btn {
+	opacity: 1;
+	transition: .3s;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+}
+
+.card-user a{
+    color: grey;
+    margin-left: 5px;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 40px;
+  justify-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr);
+}
+
